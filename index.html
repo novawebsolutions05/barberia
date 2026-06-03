@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Barberia Nova - Tu estilo, nuestro arte." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Barberia Nova - Tu estilo, nuestro arte</title>
+</head>
+<body>
+
+  <div class="announcement" aria-label="Anuncio">
+    <div class="container">
+      <span>Nuevo: Reserva online y obtén 10% en tu primera visita</span>
+      <a href="#contacto" class="link">Reservar ahora</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a class="logo" href="#inicio">
+        <img src="imagenes/imagen-principal.png" alt="Logo" class="logo-img" />
+        <span class="logo-text">Barbería Nova</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menú" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Menú</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#precios" class="nav-link">Precios</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="#contacto" class="btn btn-primary btn-reservar">Reservar</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <section class="section hero reveal" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">Experiencia Premium</div>
+          <h1 id="hero-title">Tu estilo, nuestro arte</h1>
+          <p>Barbería Nova combina técnica, tendencia y trato excepcional para potenciar tu imagen.</p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn-primary">Reservar Cita</a>
+            <a href="#servicios" class="btn btn-outline">Ver Servicios</a>
+          </div>
+          <div class="hero-badges">
+            <span class="badge">★ 4.9/5 +500 reseñas</span>
+            <span class="badge">+10 años de experiencia</span>
+            <span class="badge">Higiene y cuidado</span>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="imagenes/imagen-principal.png" alt="Barbero realizando un corte moderno" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section highlights reveal">
+      <div class="container highlight-grid">
+        <div class="highlight"><span class="h-number">500+</span><span>Clientes felices</span></div>
+        <div class="highlight"><span class="h-number">10</span><span>Años de oficio</span></div>
+        <div class="highlight"><span class="h-number">4.9</span><span>Calificación</span></div>
+        <div class="highlight"><span class="h-number">100%</span><span>Higiene</span></div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section reveal" aria-labelledby="servicios-title">
+      <div class="container">
+        <h2 id="servicios-title" class="section-title">Servicios</h2>
+        <p class="section-subtitle">Estilos que hablan por ti.</p>
+        <div class="grid services-grid">
+          <article class="card service-card" tabindex="0">
+            <div class="service-media">
+              <img src="imagenes/clasico.png" alt="Corte clásico" />
+            </div>
+            <div class="service-body">
+              <h3>Corte clásico</h3>
+              <p>Definiciones limpias, acabado prolijo. Desde $12.</p>
+            </div>
+          </article>
+          <article class="card service-card" tabindex="0">
+            <div class="service-media">
+              <img src="imagenes/moderno.png" alt="Corte moderno" />
+            </div>
+            <div class="service-body">
+              <h3>Corte moderno</h3>
+              <p>Fades, texturas y estilo actual. Desde $15.</p>
+            </div>
+          </article>
+          <article class="card service-card" tabindex="0">
+            <div class="service-media">
+              <img src="imagenes/afeitado-navaja.png" alt="Afeitado con navaja" />
+            </div>
+            <div class="service-body">
+              <h3>Afeitado con navaja</h3>
+              <p>Toallas calientes y acabado perfecto. Desde $10.</p>
+            </div>
+          </article>
+          <article class="card service-card" tabindex="0">
+            <div class="service-media">
+              <img src="imagenes/arreglo-barba.png" alt="Arreglo de barba" />
+            </div>
+            <div class="service-body">
+              <h3>Arreglo de barba</h3>
+              <p>Perfilado y diseño según tus facciones. Desde $8.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="precios" class="section reveal" aria-labelledby="precios-title">
+      <div class="container">
+        <h2 id="precios-title" class="section-title">Precios</h2>
+        <p class="section-subtitle">Packs diseñados para cada ocasión.</p>
+        <div class="grid pricing-grid">
+          <article class="pricing-card">
+            <h3>Básico</h3>
+            <p class="price"><span>$</span>12</p>
+            <ul>
+              <li>Corte clásico</li>
+              <li>Peinado</li>
+              <li>Producto de acabado</li>
+            </ul>
+            <a href="#contacto" class="btn btn-outline">Elegir</a>
+          </article>
+          <article class="pricing-card featured" aria-label="Plan recomendado">
+            <div class="tag">Recomendado</div>
+            <h3>Premium</h3>
+            <p class="price"><span>$</span>20</p>
+            <ul>
+              <li>Corte moderno/fade</li>
+              <li>Afeitado con navaja</li>
+              <li>Toalla caliente + masaje</li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary">Reservar</a>
+          </article>
+          <article class="pricing-card">
+            <h3>Barba Pro</h3>
+            <p class="price"><span>$</span>14</p>
+            <ul>
+              <li>Arreglo de barba</li>
+              <li>Definición con navaja</li>
+              <li>Aceite/baume premium</li>
+            </ul>
+            <a href="#contacto" class="btn btn-outline">Elegir</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section reveal" aria-labelledby="galeria-title">
+      <div class="container">
+        <h2 id="galeria-title" class="section-title">Galería</h2>
+        <p class="section-subtitle">Un vistazo a nuestro trabajo.</p>
+        <div class="grid gallery-grid">
+          <img src="imagenes/captura-1.png" alt="Galería 1" class="gallery-item" />
+          <img src="imagenes/captura-2.png" alt="Galería 2" class="gallery-item" />
+          <img src="imagenes/captura-3.png" alt="Galería 3" class="gallery-item" />
+          <img src="imagenes/captura-4.png" alt="Galería 4" class="gallery-item" />
+          <img src="imagenes/captura-5.png" alt="Galería 5" class="gallery-item" />
+          <img src="imagenes/captura-6.png" alt="Galería 6" class="gallery-item" />
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section reveal" aria-labelledby="testimonios-title">
+      <div class="container">
+        <h2 id="testimonios-title" class="section-title">Testimonios</h2>
+        <div class="slider" role="region" aria-label="Opiniones de clientes">
+          <div class="slides" aria-live="polite">
+            <figure class="slide">
+              <blockquote>"Ambiente increíble y un corte impecable. ¡Volveré sin dudarlo!"</blockquote>
+              <figcaption>— Carlos M.</figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>"Atención al detalle y trato amable. La mejor barbería del barrio."</blockquote>
+              <figcaption>— Diego R.</figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>"Me asesoraron con el estilo perfecto. Resultado top."</blockquote>
+              <figcaption>— Javier L.</figcaption>
+            </figure>
+          </div>
+          <button class="slider-btn prev" aria-label="Anterior">&#10094;</button>
+          <button class="slider-btn next" aria-label="Siguiente">&#10095;</button>
+          <div class="slider-dots" role="tablist"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section reveal" aria-labelledby="faq-title">
+      <div class="container">
+        <h2 id="faq-title" class="section-title">Preguntas frecuentes</h2>
+        <div class="faq-list" role="list">
+          <article class="faq-item" role="listitem">
+            <button class="faq-q" aria-expanded="false">¿Aceptan visitas sin cita?</button>
+            <div class="faq-a" hidden>Recomendamos reservar, pero atendemos según disponibilidad.</div>
+          </article>
+          <article class="faq-item" role="listitem">
+            <button class="faq-q" aria-expanded="false">¿Qué métodos de pago aceptan?</button>
+            <div class="faq-a" hidden>Efectivo, tarjetas y pagos móviles.</div>
+          </article>
+          <article class="faq-item" role="listitem">
+            <button class="faq-q" aria-expanded="false">¿Ofrecen cortes para niños?</button>
+            <div class="faq-a" hidden>Sí, contamos con opciones para todas las edades.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band reveal">
+      <div class="container cta-grid">
+        <div>
+          <h3>¿Listo para tu nuevo look?</h3>
+          <p>Agenda tu cita hoy y vive la experiencia Nova.</p>
+        </div>
+        <a href="#contacto" class="btn btn-primary">Reservar ahora</a>
+      </div>
+    </section>
+
+    <section id="contacto" class="section reveal" aria-labelledby="contacto-title">
+      <div class="container">
+        <h2 id="contacto-title" class="section-title">Reserva tu cita</h2>
+        <p class="section-subtitle">Déjanos tus datos y nos pondremos en contacto.</p>
+        <form id="reserva-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+              <span class="error-msg"></span>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required />
+              <span class="error-msg"></span>
+            </div>
+            <div class="form-field">
+              <label for="telefono">Teléfono (opcional)</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="Ej. 6358-6386" />
+            </div>
+            <div class="form-field">
+              <label for="fecha">Fecha y hora preferida</label>
+              <input type="datetime-local" id="fecha" name="fecha" required />
+              <span class="error-msg"></span>
+            </div>
+            <div class="form-field form-span-2">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué corte buscas..."></textarea>
+            </div>
+          </div>
+          <div id="form-messages" class="form-messages"></div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#inicio">
+          <img src="imagenes/imagen-principal.png" alt="Logo" class="logo-img" />
+          <span class="logo-text">Barbería Nova</span>
+        </a>
+        <p>Tel: <a href="tel:63586386" class="footer-link">6358-6386</a></p>
+      </div>
+      <div class="footer-hours">
+        <h3>Horarios</h3>
+        <p>Lun–Sáb: 10:00 – 20:00</p>
+        <p>Domingo: 11:00 – 16:00</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Página web hecha por Nova Web Solutions. Contáctanos al <a href="tel:63586386" class="footer-link">6358-6386</a>.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
